@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cabecalho {
+  margin: 10px;
+  padding: 20px;
+  border: #000000 solid 5px;
+}
+
+.corpo {
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.corpo__consulta {
+  margin: 10px;
+  padding: 20px;
+  border: #000000 solid 5px;
+}
+
+.corpo__consulta__texto {
+  margin: 10px;
+  padding: 20px;
+}
+
+.corpo__consulta__botoes {
+  display: flex;
+  margin: 10px;
+  padding: 20px;
+  border: #000000 solid 5px;
+}
+
+.corpo__resultado {
+  margin: 10px;
+  padding: 20px;
+  border: #000000 solid 5px;
+}
+
+.rodape {
+  margin: 10px;
+  padding: 20px;
+  border: #000000 solid 5px;
+}
