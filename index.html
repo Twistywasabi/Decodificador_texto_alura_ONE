@@ -11,24 +11,32 @@
     <main class="corpo">
       <section class="corpo__consulta">
         <div class="corpo__consulta__texto">
-          <p>Digite o seu texto</p>
-          <input type="text" />
+          <input
+            class="corpo__consulta__texto__input"
+            type="text"
+            name="input"
+            value="Digite seu texto"
+          />
         </div>
         <div class="corpo__consulta__botoes">
-          <button>Criptografar</button>
-          <button>Descriptografar</button>
+          <button onclick="criptografar()">Criptografar</button>
+          <button onclick="descriptografar()">Descriptografar</button>
         </div>
       </section>
       <section class="corpo__resultado">
-        <p>Nenhuma mensagem Encontrada</p>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod quam
-          est mollitia asperiores rem ab expedita sequi, reiciendis dolor iste
-          accusantium, tenetur odit, soluta sapiente temporibus itaque maxime
-          eos laudantium.
-        </p>
+        <img
+          id="imagem_nao_encontrada"
+          class="corpo__resultado__imagem"
+          src="assets/1.PNG"
+          alt="Nenhuma mensagem encontrada, digite um texto que você deseja criptografar ou descriptografar"
+        />
+        <textarea name="resultado" id="resposta_consulta" rows="25" cols="60">
+ Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime odio voluptatibus dicta laborum! Exercitationem, ipsam voluptates quod facere sed assumenda ducimus reprehenderit beatae non porro quo, fugiat ea minima excepturi.</textarea
+        >
+        <button id="botao_copiar">Copiar</button>
       </section>
     </main>
     <footer class="rodape">Criado por: Lucas Hideaki Tsuzuku</footer>
   </body>
+  <script src="app.js"></script>
 </html>
