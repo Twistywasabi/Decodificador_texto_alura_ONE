@@ -11,18 +11,34 @@
     <main class="corpo">
       <section class="corpo__consulta">
         <div class="corpo__consulta__texto">
-          <input
+          <textarea
             id="textoRequisicao"
             class="corpo__consulta__texto__input"
             type="text"
             name="input"
             placeholder="Digite seu texto"
-          />
+            rows="5"
+            cols="60"
+          ></textarea>
         </div>
+        <p id="corpo__consulta__aviso">
+          ! Apenas letras minúsculas e sem acento.
+        </p>
         <div class="corpo__consulta__botoes">
-          <p>Apenas letras minúsculas e sem acento.</p>
-          <button onclick="criptografar()">Criptografar</button>
-          <button onclick="descriptografar()">Descriptografar</button>
+          <button
+            class="botoes"
+            id="botao__criptografia"
+            onclick="criptografar()"
+          >
+            Criptografar
+          </button>
+          <button
+            class="botoes"
+            id="botao__descriptografia"
+            onclick="descriptografar()"
+          >
+            Descriptografar
+          </button>
         </div>
       </section>
       <section class="corpo__resultado">
@@ -33,7 +49,9 @@
             src="assets/3.PNG"
             alt="Nenhuma mensagem encontrada, digite um texto que você deseja criptografar ou descriptografar"
           />
-          <p>Nenhuma mensagem encontrada</p>
+          <p id="corpo__resultado__semTexto__subtitulo">
+            Nenhuma mensagem encontrada
+          </p>
           <p>
             Digite um texto que você deseja criptografar ou descriptografar.
           </p>
@@ -42,11 +60,11 @@
           <textarea
             name="resultado"
             id="resposta_consulta"
-            rows="25"
-            cols="60"
+            rows="15"
+            cols="33"
             wrap="hard"
           ></textarea>
-          <button id="botao_copiar">Copiar</button>
+          <button id="botao_copiar" class="botoes">Copiar</button>
         </div>
         <div class="corpo__resultado__caracteresInvalido">
           <p>
