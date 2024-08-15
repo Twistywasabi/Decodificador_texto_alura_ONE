@@ -6,6 +6,7 @@
   --secondary-color: #d8dfe8;
   --secondary-light-color: #e5e5e5;
   --third-color: #ffffff;
+  --forth-color: grey;
   --primary-font: "Inter", sans-serif;
 }
 
@@ -16,14 +17,18 @@
 
 body {
   background-color: var(--secondary-light-color);
-  height: 100vh;
+  /* height: 100vh; */
   box-sizing: border-box;
 }
 
 .cabecalho {
+  display: flex;
   margin: 10px;
   padding: 20px;
-  border: #000000 solid 5px;
+  /* border: #000000 solid 5px; */
+  font-family: var(--primary-font);
+  font-size: 64px;
+  color: var(--primary-color);
 }
 
 .corpo {
@@ -79,6 +84,7 @@ body {
 
 .corpo__resultado {
   margin: 10px;
+  margin-right: 40px;
   padding: 20px;
   background-color: var(--third-color);
   display: flex;
@@ -131,6 +137,7 @@ body {
   resize: none;
   outline: none;
   font-size: 24px;
+  color: var(--forth-color);
 }
 
 .corpo__resultado__caracteresInvalido {
@@ -138,9 +145,16 @@ body {
 }
 
 .rodape {
-  margin: 10px;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 0px;
   padding: 20px;
-  border: #000000 solid 5px;
+  background-color: var(--primary-color);
+  font-family: var(--primary-font);
+  font-size: medium;
+  color: var(--secondary-color);
+  text-align: center;
 }
 
 .botoes {
