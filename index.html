@@ -12,6 +12,7 @@
       <section class="corpo__consulta">
         <div class="corpo__consulta__texto">
           <input
+            id="textoRequisicao"
             class="corpo__consulta__texto__input"
             type="text"
             name="input"
@@ -24,16 +25,30 @@
         </div>
       </section>
       <section class="corpo__resultado">
-        <img
-          id="imagem_nao_encontrada"
-          class="corpo__resultado__imagem"
-          src="assets/1.PNG"
-          alt="Nenhuma mensagem encontrada, digite um texto que você deseja criptografar ou descriptografar"
-        />
-        <textarea name="resultado" id="resposta_consulta" rows="25" cols="60">
- Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime odio voluptatibus dicta laborum! Exercitationem, ipsam voluptates quod facere sed assumenda ducimus reprehenderit beatae non porro quo, fugiat ea minima excepturi.</textarea
-        >
-        <button id="botao_copiar">Copiar</button>
+        <div class="corpo__resultado__semTexto">
+          <img
+            id="imagem_nao_encontrada"
+            class="corpo__resultado__imagem"
+            src="assets/1.PNG"
+            alt="Nenhuma mensagem encontrada, digite um texto que você deseja criptografar ou descriptografar"
+          />
+        </div>
+        <div class="corpo__resultado__comTexto">
+          <textarea
+            name="resultado"
+            id="resposta_consulta"
+            rows="25"
+            cols="60"
+            wrap="hard"
+          ></textarea>
+          <button id="botao_copiar">Copiar</button>
+        </div>
+        <div class="corpo__resultado__caracteresInvalido">
+          <p>
+            Requisição inválida, remova os caracteres especiais ('@', '*', '&'
+            ... )
+          </p>
+        </div>
       </section>
     </main>
     <footer class="rodape">Criado por: Lucas Hideaki Tsuzuku</footer>

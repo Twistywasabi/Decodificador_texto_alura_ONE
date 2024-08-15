@@ -57,11 +57,16 @@ body {
   gap: 10px;
 }
 
-#resposta_consulta {
-  display: none;
+.corpo__resultado__semTexto {
+  display: flex;
 }
 
-#botao_copiar {
+.corpo__resultado__comTexto {
+  display: none;
+  flex-direction: column;
+}
+
+.corpo__resultado__caracteresInvalido {
   display: none;
 }
 
