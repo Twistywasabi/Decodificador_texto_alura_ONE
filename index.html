@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Decodificador_Texto_Lucas</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
     <header class="cabecalho">Logo da alura</header>
@@ -16,10 +16,11 @@
             class="corpo__consulta__texto__input"
             type="text"
             name="input"
-            value="Digite seu texto"
+            placeholder="Digite seu texto"
           />
         </div>
         <div class="corpo__consulta__botoes">
+          <p>Apenas letras minúsculas e sem acento.</p>
           <button onclick="criptografar()">Criptografar</button>
           <button onclick="descriptografar()">Descriptografar</button>
         </div>
@@ -28,10 +29,14 @@
         <div class="corpo__resultado__semTexto">
           <img
             id="imagem_nao_encontrada"
-            class="corpo__resultado__imagem"
-            src="assets/1.PNG"
+            class="corpo__resultado__semTexto__imagem"
+            src="assets/3.PNG"
             alt="Nenhuma mensagem encontrada, digite um texto que você deseja criptografar ou descriptografar"
           />
+          <p>Nenhuma mensagem encontrada</p>
+          <p>
+            Digite um texto que você deseja criptografar ou descriptografar.
+          </p>
         </div>
         <div class="corpo__resultado__comTexto">
           <textarea
