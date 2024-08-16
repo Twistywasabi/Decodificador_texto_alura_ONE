@@ -38,10 +38,34 @@ Extras:
 
 ## Resultados 🎁
 
+https://twistywasabi.github.io/Decodificador_texto_alura_ONE/
+
 ## Referências 📚
 
 - Figma do desafio: https://www.figma.com/design/tvFEYhVfZTjdJ5P24RGV21/Alura-Challenge---Desafio-1---L%C3%B3gica?node-id=0-1&t=MJToTtDtWibQydTw-0
 
+- https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/input
+
+- https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/textarea
+
+- https://www.techtudo.com.br/noticias/2016/09/o-que-e-web-clipboard-do-google-docs-e-como-usar.ghtml
+
+- https://medium.com/walternascimentobarroso-pt/criando-bot%C3%A3o-de-copiar-com-js-319e6df18bc0
+
+- https://pt.stackoverflow.com/questions/342605/verificar-a-exist%C3%AAncia-de-caracteres-especiais-em-uma-string-utilizando-regexp
+
+- https://awari.com.br/javascript-contains-verificando-se-uma-string-contem-um-determinado-valor-com-contains-em-javascript/
+
+- https://developer.mozilla.org/pt-BR/docs/Learn/Common_questions/Using_Github_pages
+
 ## Atualizações 🕐
 
+16/08/2023 - Primeira versão
+
 ## Pendências 🚨
+
+- Melhorar responsividade
+
+- Ajustar paleta de cores
+
+- Melhorar o espaçamento para ser de acordo com a porcentagem para aumnetar a responsividade do site
