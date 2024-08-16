@@ -8,9 +8,25 @@
   </head>
   <body>
     <header class="cabecalho">
-      <p id="cabecalho__logo">alura</p>
-      <button id="cabecalho__botao1" class="botoes">Paleta 1</button>
-      <button id="cabecalho__botao2" class="botoes">Paleta 2</button>
+      <div class="cabecalho__texto">
+        <p id="cabecalho__logo">alura</p>
+      </div>
+      <div class="cabecalho__botoes">
+        <button
+          id="cabecalho__botao1"
+          class="botoes"
+          onclick="alterarPaleta1()"
+        >
+          Paleta 1
+        </button>
+        <button
+          id="cabecalho__botao2"
+          class="botoes"
+          onclick="alterarPaleta2()"
+        >
+          Paleta 2
+        </button>
+      </div>
     </header>
     <main class="corpo">
       <section class="corpo__consulta">
@@ -64,8 +80,8 @@
           <textarea
             name="resultado"
             id="resposta_consulta"
-            rows="11"
-            cols="30"
+            rows="10"
+            cols="25"
             wrap="hard"
           ></textarea>
           <button id="botao_copiar" class="botoes">Copiar</button>

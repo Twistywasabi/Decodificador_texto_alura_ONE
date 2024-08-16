@@ -134,3 +134,42 @@ async function clipboardCopy() {
     document.getElementById("resposta_consulta").value;
   await navigator.clipboard.writeText(textoConsultaResposta);
 }
+//função para alterar paleta de cores da página
+
+function alterarPaleta1() {
+  document.documentElement.style.setProperty("--primary-color", "#0a3871");
+  document.documentElement.style.setProperty(
+    "--primary-light-color",
+    "#1f4f8a"
+  );
+  document.documentElement.style.setProperty("--secondary-color", "#d8dfe8");
+  document.documentElement.style.setProperty(
+    "--secondary-light-color",
+    "#e5e5e5"
+  );
+  document.documentElement.style.setProperty("--third-color", "#ffffff");
+  document.documentElement.style.setProperty("--forth-color", "#808080");
+  document.documentElement.style.setProperty(
+    "--primary-font",
+    "'Inter', sans-serif"
+  );
+}
+
+function alterarPaleta2() {
+  document.documentElement.style.setProperty("--primary-color", "#11af03");
+  document.documentElement.style.setProperty(
+    "--primary-light-color",
+    "#93fb15"
+  );
+  document.documentElement.style.setProperty("--secondary-color", "#93fb15");
+  document.documentElement.style.setProperty(
+    "--secondary-light-color",
+    "#000000"
+  );
+  document.documentElement.style.setProperty("--third-color", "#ffed00");
+  document.documentElement.style.setProperty("--forth-color", "#0f6292");
+  document.documentElement.style.setProperty(
+    "--primary-font",
+    "'Orbitron', sans-serif"
+  );
+}
