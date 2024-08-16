@@ -68,4 +68,4 @@ https://twistywasabi.github.io/Decodificador_texto_alura_ONE/
 
 - Ajustar paleta de cores
 
-- Melhorar o espaçamento para ser de acordo com a porcentagem para aumnetar a responsividade do site
+- Melhorar o espaçamento para ser de acordo com a porcentagem para aumentar a responsividade do site
