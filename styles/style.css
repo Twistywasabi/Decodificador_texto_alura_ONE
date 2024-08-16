@@ -280,7 +280,8 @@ body {
 
   .corpo__resultado {
     margin: 0rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2.5rem;
+    width: 64rem;
   }
 
   #corpo__consulta__aviso {
@@ -298,6 +299,12 @@ body {
 
   .cabecalho__botoes {
     display: contents;
+  }
+
+  .corpo__resultado {
+    margin: 0rem;
+    margin-bottom: 2.5rem;
+    width: 32rem;
   }
 }
 
@@ -324,6 +331,10 @@ body {
 
   .corpo__resultado {
     width: 13.7915rem;
+  }
+
+  .corpo__resultado__semTexto__imagem {
+    width: 8.4375rem;
   }
 
   .botoes {
